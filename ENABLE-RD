@@ -1,0 +1,9 @@
+local player = game.Players.LocalPlayer
+
+local playerName = player.Name
+local playerGroup = game.Workspace:FindFirstChild(playerName)
+
+playerGroup.Pushed.Disabled = false
+playerGroup["Falling down"].Disabled = false
+playerGroup.RagdollMe.Disabled = false
+playerGroup.StartRagdoll.Disabled = false
